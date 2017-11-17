@@ -8,8 +8,8 @@ You will be building an endpoint that allows users to search a data set. Include
 
 ### User Stories (Requirements)
 
-- As a user I can make a GET request to an endpoint with an `origin` and `destination` query parameter, and reveive back all the airlines (if any) that offer flights between them.
-- As a user I am provided meaningful feedback should no Airlines offer flights between the airports.
+- As a user I can make a GET request to an endpoint with an `origin` and `destination` query parameter, and receive back the shortest route between the two, as an array of connecting flights.
+- As a user I am provided meaningful feedback should no route exist between the airports.
 
 ### Getting Started
 
