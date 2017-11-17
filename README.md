@@ -4,7 +4,7 @@ At Guestlogix we feel that putting developers on the spot with advanced algorith
 
 ### What is the test?
 
-You will be building an endpoint that allows users to search a data set. Included in this repository is a set of Airport, Airline, and Route data. Your task is to create models to represent, relate and ultimately expose the data to a GET endpoint. Users of the API will be able to search for airlines that service a specified route.
+You will be building an endpoint that allows users to search a data set. Included in this repository is a set of Airport, Airline, and Route data. Your task is to create models to represent, relate and ultimately expose the data to a GET endpoint. Users of the API will be able to search for routes given an origin and destination.
 
 ### User Stories (Requirements)
 
