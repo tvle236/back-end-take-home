@@ -1,6 +1,6 @@
 # Guestlogix Take Home Test - Backend
 
-At Guestlogix we feel that putting developers on the spot with advanced algorithmic puzzles doesn't exactly highlight one's true skillset. The intention of this assessment is to see how you approach and tackle a problem in the real world, not quivering in front of a whiteboard.
+At Guestlogix we feel that putting developers on the spot with advanced algorithmic puzzles doesn’t exactly highlight one’s true skillset. The intention of this assessment is to see how you approach and tackle a problem in the real world, not quivering in front of a whiteboard.
 
 ### What is the test?
 
@@ -8,12 +8,13 @@ You will be building an endpoint that allows users to search a data set. Include
 
 ### User Stories (Requirements)
 
-- As a user I can make a GET request to an endpoint with an `origin` and `destination` query parameter, and receive back the shortest route between the two, as an array of connecting flights.
+- As a user I can make a GET request to an endpoint with an `origin` and `destination` query parameter, and receive back the shortest route between the two, as an array of connecting flights. A shortest route is defined as the route with the fewest connections. If there are mulitple routes with the same number of connections, the one with the shortest ground distance is considered the shortest. If there are multiple flights that have equal distances, return them all.
 - As a user I am provided meaningful feedback should no route exist between the airports.
+- As a user I am provided meaningful feedback if an error occurred with my request.
 
 ### Getting Started
 
-For this test you can use any technology you want... seriously. Node.js? Do it. .NET? Send it. PHP? That still exists? Basically, the point is, use whatever you want, really, no need to try and impress us with a new tech if you aren't familiar with it, use what you like, anyone can learn a new framework. The only downside is because we want to leave this up to you, we can't really boilerplate the build steps and such for you, so that adds a little bit of time for you... sorry.
+For this test you can use any technology you want... seriously. Node.js? Do it. .NET? Send it. PHP? That still exists? Basically, the point is, use whatever you want, really, no need to try and impress us with a new tech if you aren’t familiar with it, use what you like, anyone can learn a new framework. The only downside is because we want to leave this up to you, we can’t really boilerplate the build steps and such for you, so that adds a little bit of time for you... sorry.
 
 ### Submitting
 
@@ -23,4 +24,4 @@ For this test you can use any technology you want... seriously. Node.js? Do it. 
 
 ### Questions
 
-If you have any questions during the challenge feel free to email Brennen Denomme at bdenomme@guestlogix.com. Whether it be a question about the requirements, submitting, anything, just send the email!
+If you have any questions during the challenge feel free to email Peter Samsonov at psamsonov@guestlogix.com. Whether it be a question about the requirements, submitting, anything, just send the email!
