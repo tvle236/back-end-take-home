@@ -24,4 +24,4 @@ For this test you can use any technology you want... seriously. Node.js? Do it. 
 
 ### Questions
 
-If you have any questions during the challenge feel free to email Peter Samsonov at psamsonov@guestlogix.com. Whether it be a question about the requirements, submitting, anything, just send the email!
+If you have any questions during the challenge feel free to open an issue on this repo and ask it.
