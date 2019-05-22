@@ -12,6 +12,20 @@ You will be building an endpoint that allows users to search a data set. Include
 - As a user I am provided meaningful feedback should no route exist between the airports.
 - As a user I am provided meaningful feedback if an error occurred with my request.
 
+### Testing
+
+Within the `data` folder you will find two subdirectories, `test` and `full`. `test` offers a small subset of the data found in `full` which you may use when developing your solution. Your final solution however must be performant with the `full` set.
+
+Some test cases to consider on the `test` data set.
+
+| Origin | Destination | Expected Result          |
+|--------|-------------|--------------------------|
+| YYZ    | JFK         | YYZ -> JFK               |
+| YYZ    | YVR         | YYZ -> JFK -> LAX -> YVR |
+| YYZ    | ORD         | No Route                 |
+| XXX    | ORD         | Invalid Origin           |
+| ORD    | XXX         | Invalid Destination      |
+
 ### Getting Started
 
 For this test you can use any technology you want... seriously. Node.js? Do it. .NET? Send it. PHP? That still exists? Basically, the point is, use whatever you want, really, no need to try and impress us with a new tech if you aren’t familiar with it, use what you like, anyone can learn a new framework. The only downside is because we want to leave this up to you, we can’t really boilerplate the build steps and such for you, so that adds a little bit of time for you... sorry.
