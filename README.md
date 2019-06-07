@@ -12,6 +12,8 @@ You will be building an endpoint that allows users to search a data set. Include
 - As a user I am provided meaningful feedback should no route exist between the airports.
 - As a user I am provided meaningful feedback if an error occurred with my request.
 
+> NOTE: THE SHORTEST PATH FUNCTIONALITY MAY NOT RELY ON AN EXTERNAL LIBRARY. YOU MUST DEVELOP THIS ON YOUR OWN.
+
 ### Testing
 
 Within the `data` folder you will find two subdirectories, `test` and `full`. `test` offers a small subset of the data found in `full` which you may use when developing your solution. Your final solution however must be performant with the `full` set.
