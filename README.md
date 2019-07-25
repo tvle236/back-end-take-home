@@ -32,6 +32,10 @@ Some test cases to consider on the `test` data set.
 
 For this test you can use any technology you want... seriously. Node.js? Do it. .NET? Send it. PHP? That still exists? Basically, the point is, use whatever you want, really, no need to try and impress us with a new tech if you aren’t familiar with it, use what you like, anyone can learn a new framework. The only downside is because we want to leave this up to you, we can’t really boilerplate the build steps and such for you, so that adds a little bit of time for you... sorry.
 
+### Hosting
+
+While we're still interested in cloning the repository, and running the solution local as part of our evaluation, sometimes we run into a snag. To circumvent this it's recommended you also prepare a hosted version and provide us the link.
+
 ### Submitting
 
 1. Fork this repository and provide your solution.
