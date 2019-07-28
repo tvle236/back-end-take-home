@@ -3,7 +3,9 @@ import { AirlineCsvRepo } from "./airlineCsvRepo";
 import { AirRouteCsvRepo } from "./airRouteCsvRepo";
 import { join } from "path";
 
-const target = process.env["target"] || "test";
+const target = process.env["NODE_ENV"] === "production" ?
+    "full" :
+    "test";
 
 const airlineCsvRepo = new AirlineCsvRepo(join(__dirname, `../../data/${target}/airlines.csv`));
 const airportCsvRepo = new AirportCsvRepo(join(__dirname, `../../data/${target}/airports.csv`));
